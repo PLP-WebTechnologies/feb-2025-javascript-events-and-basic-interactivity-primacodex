@@ -1,0 +1,93 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+/* Button styling */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Tab system styles */
+.tabs {
+  margin-top: 10px;
+}
+
+.tab {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab-content {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Image styles */
+#displayImage {
+  max-width: 300px;
+  display: block;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Form styles */
+form {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+#formMessage {
+  margin-top: 10px;
+  color: #4caf50;
+  font-weight: bold;
+}
